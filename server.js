@@ -41,6 +41,8 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
+// TODO REMOVE
+
 // mount all routes with appropriate base paths
 app.use('/', indexRoutes);
 app.use('/', studentsRoutes);
