@@ -8,7 +8,7 @@ const passport = require('passport');
 // load the env vars
 require('dotenv').config();
 
-// create the Express app
+// create the Express app --change
 const app = express();
 
 // connect to the MongoDB with mongoose
